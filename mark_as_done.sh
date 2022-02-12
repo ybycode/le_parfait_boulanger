@@ -10,5 +10,5 @@ if [ $# -ne 1 ]; then
 fi
 
 orig="$1"
-dest="${1%.todo.txt}".done.txt
+dest="${orig%.todo.txt}".done.txt
 mv "$orig" "$dest"
