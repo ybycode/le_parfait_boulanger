@@ -10,7 +10,7 @@ Ce projet a pour but d'obtenir une version numérique facilement lisible du livr
 
 ## Outils
 
-- [Imagemagick](https://imagemagick.org/) est utilisé pour la création d'un fichier image PNG pour chaque page du livre:
+- [Imagemagick](https://imagemagick.org/) a été utilisé pour la création d'un fichier image PNG pour chaque page du livre:
 
     ```bash
     $ ./ocr/pdf_to_images.sh
@@ -21,5 +21,9 @@ Ce projet a pour but d'obtenir une version numérique facilement lisible du livr
     ```bash
     $ ./ocr/images_to_txt.sh
     ```
-Les fichiers PNG et TXT sont disponibles dans le dossier `pages`.
+Les fichiers TXT sont disponibles dans le dossier `pages`.
 
+## Conventions de nommage
+
+- les fichiers nommés `pages/*.todo.txt` (à faire) restent à traiter,
+- les fichiers nommés `pages/*.done.txt` (faits) sont considérés comme traités.
