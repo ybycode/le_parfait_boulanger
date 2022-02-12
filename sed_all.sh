@@ -9,5 +9,5 @@ fi
 
 find pages \
   -type f \
-  -name '*.png.todo.txt' \
+  -name '*.todo.txt' \
   -exec sed -i "$1" {} \;
