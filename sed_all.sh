@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Applies sed in place on all pages/*.png.txt files.
+# Applies sed in place on all pages/*.todo.txt files.
 
 if [ $# -ne 1 ]; then
   >&2 echo "USAGE EXAMPLE: $0 's/from/to/g'"
@@ -9,5 +9,5 @@ fi
 
 find pages \
   -type f \
-  -name '*.png.txt' \
+  -name '*.png.todo.txt' \
   -exec sed -i "$1" {} \;
