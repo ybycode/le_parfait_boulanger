@@ -10,4 +10,4 @@ fi
 find pages \
   -type f \
   -name '*.todo.txt' \
-  -exec sed -i "$1" {} \;
+  -exec sed -i -E "$1" {} \;
