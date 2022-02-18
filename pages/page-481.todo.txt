@@ -25,7 +25,7 @@ abondante.
 
 “ Avant de procéder à la division de la pête
 “ pour la façonner en pain, il faut bien réfléchir
-aux différentes espèces de pain qu’on a deffein
+aux différentes espèces de pain qu’on a dessein
 de fabriquer, afin de donner à chacun d’eux ,
 indépendamment du poids qu’ils doivent avoir,
 æn équivalent à l’évaporation qu’ils éprouvent
