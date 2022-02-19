@@ -1,8 +1,10 @@
+An English version of the README is available here: [README_en.md](README_en.md).
+
 # Le parfait boulanger, ou Traité complet sur la fabrication et le commerce du pain
 
 - Auteur: Antoine Augustin Parmentier
 - Date de publication: 1778
-- Disponible à https://gallica.bnf.fr/ark:/12148/bpt6k5823829n.texteImage
+- Original disponible à https://gallica.bnf.fr/ark:/12148/bpt6k5823829n.texteImage
 
 ## But du projet
 
@@ -42,4 +44,3 @@ Les pull requests sont les bienvenues ! Une PR par page est préféré
     ```bash
     $ ./ocr/images_to_txt.sh
     ```
-Les fichiers TXT sont disponibles dans le dossier `pages`.
