@@ -9,7 +9,7 @@ do
   echo -n "$i "
   convert \
     -density 150 \
-    parmentier.pdf\[$i\] \
+    le_parfait_boulanger.pdf\[$i\] \
     -quality 90 \
     pages/page-%03d.png 2> errors1.log
   echo OK
